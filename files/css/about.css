@@ -21,7 +21,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Bebas Neue", cursive;
+  /* font-family: "Bebas Neue", cursive; */
+  font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -161,7 +162,7 @@ a:hover {
 
 .about-us-info h2 {
   color: black;
-  font-size: 35pt;
+  font-size: 32pt;
   text-align: right;
 }
 
@@ -263,7 +264,7 @@ a:hover {
 @media screen and (max-width: 1353px) {
   .history-info {
     margin-left: 400px;
-    width: 60%;
+    width: 56%;
     background: #ffffff99;
     padding: 0px 0px 0px 25px;
   }
@@ -306,7 +307,7 @@ a:hover {
 
 .history-info h2 {
   color: black;
-  font-size: 35pt;
+  font-size: 32pt;
   text-align: left;
 }
 

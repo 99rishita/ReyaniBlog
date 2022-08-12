@@ -275,6 +275,7 @@ body {
   position: relative;
   height: 350px;
   overflow: hidden;
+  border-radius: 15px;
 }
 
 .image-contain {
