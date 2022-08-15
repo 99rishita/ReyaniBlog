@@ -43,9 +43,12 @@
 
 .product-featured {
   margin-bottom: 30px;
+  display: flex;
+  justify-content: right;
 }
 
 .product-featured .showcase-wrapper {
+  width: 60rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -84,6 +87,8 @@
 }
 
 .product-featured .showcase-rating {
+  display: flex;
+  justify-content: right;
   color: var(--sandy-brown);
   display: -webkit-box;
   display: -webkit-flex;
@@ -123,17 +128,20 @@
   display: flex;
   gap: 10px;
   margin-bottom: 10px;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .product-featured .price {
   color: var(----bittersweet);
   font-weight: var(--weight-700);
+  font-size: 20px;
 }
 
 .product-featured del {
   color: var(--sonic-silver);
   font-weight: var(--weight-300);
+  font-size: 20px;
 }
 
 .product-featured .add-cart-btn {
@@ -214,6 +222,7 @@
   display: -ms-flexbox;
   display: flex;
   gap: 5px;
+  justify-content: center;
 }
 
 .product-featured .countdown-content {

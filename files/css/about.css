@@ -175,7 +175,8 @@ a:hover {
 .about-us-info p {
   color: black;
   font-size: 13pt;
-  text-align: right;
+  text-align: justify;
+  padding: 0 1.6rem;
 }
 
 @media screen and (max-width: 860px) {
@@ -344,4 +345,11 @@ a:hover {
   color: white;
   box-shadow: rgb(92, 152, 218) 0px 20px 30px -10px;
   transform: translateY(10px);
+}
+.about-line {
+  height: 5px;
+  width: 50px;
+  margin-left: 20px;
+  border-top: 2px solid black;
+  width: 81%;
 }
