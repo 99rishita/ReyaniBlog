@@ -44,7 +44,7 @@
 .product-featured {
   margin-bottom: 30px;
   display: flex;
-  justify-content: right;
+  justify-content: space-around;
 }
 
 .product-featured .showcase-wrapper {
@@ -133,15 +133,16 @@
 }
 
 .product-featured .price {
-  color: var(----bittersweet);
+  color: rgb(254, 105, 105);
   font-weight: var(--weight-700);
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .product-featured del {
-  color: var(--sonic-silver);
+  color: hsl(0, 0%, 74%);
   font-weight: var(--weight-300);
   font-size: 20px;
+  font-weight: bold;
 }
 
 .product-featured .add-cart-btn {
@@ -209,11 +210,12 @@
 }
 
 .product-featured .countdown-desc {
-  color: var(--eerie-black);
-  font-size: var(--fs-9);
+  color: var(----rich-black-fogra-29);
+  font-size: var(--fs-5);
   font-weight: var(--weight-600);
   text-transform: uppercase;
   margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .product-featured .countdown {
@@ -302,4 +304,14 @@
 }
 .deal-title {
   text-align: center;
+}
+.showcase-title h3 {
+  font-weight: bold;
+}
+.about-line {
+  height: 5px;
+  width: 50px;
+  margin-left: 20px;
+  border-top: 1px solid black;
+  width: 95%;
 }

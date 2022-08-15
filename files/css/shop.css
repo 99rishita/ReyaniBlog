@@ -148,3 +148,10 @@ img:hover {
 .button:hover ion-icon {
   transform: rotate(360deg);
 }
+.about-line {
+  height: 5px;
+  width: 50px;
+  margin-left: 20px;
+  border-top: 1px solid black;
+  width: 95%;
+}
